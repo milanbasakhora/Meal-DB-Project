@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-green-100 h-[440px] rounded-md w-full shadow-lg overflow-hidden hover:shadow-xl">
+    <div class="bg-green-100 h-[440px] rounded-md w-full shadow-lg overflow-hidden hover:shadow-xl cursor-pointer" @click="navigateTo(`/meals/${monkey.idMeal}`)">
         <div>
             <img :src="monkey.strMealThumb" alt="yo" loading="lazy">
         </div>
