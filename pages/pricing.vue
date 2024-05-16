@@ -1,6 +1,6 @@
 <template>
-    <div class="flex justify-center text-4xl">
-        <h1>This is About Page</h1>
+    <div class="flex justify-center items-center text-4xl h-screen bg-[url('https://picsum.photos/1920/1080?blur')]">
+        <h1>This is pricing Page</h1>
     </div>
 </template>
 
