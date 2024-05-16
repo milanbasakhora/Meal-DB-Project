@@ -6,7 +6,7 @@
                 <div class="px-4 flex justify-center items-center p-10">
                     <div class="border-8 border-green-500 rounded-full">
                         <div class="bg-green-100 h-[500px] w-[500px] rounded-full bg-opacity-10 backdrop-blur-3xl max-sm:h-[300px] max-sm:w-[300px]">
-                            <img class="h-[500px] w-[500px] object-cover max-sm:h-[300px] max-sm:w-[300px]" src="https://www.themealdb.com/images/ingredients/Salmon.png" alt="">
+                            <img class="h-[500px] w-[500px] object-cover max-sm:h-[300px] max-sm:w-[300px]" loading="lazy" src="https://www.themealdb.com/images/ingredients/Salmon.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div class="px-4">
-                    <img src="/images/dish.png" alt="">
+                    <img loading="lazy" src="/images/dish.png" alt="">
                 </div>
             </div>
         </section>
