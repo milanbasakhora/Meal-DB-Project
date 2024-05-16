@@ -19,7 +19,7 @@
                             optio officia commodi atque ad consequatur?</p>
                         <div>
                             <button type="button"
-                                class="text-white bg-green-700 hover:bg-green-800 rounded-lg px-4 py-2 me-2 mx-1 mb-2 font-medium">Let's
+                                class="text-white bg-green-700 hover:bg-green-800 rounded-lg px-4 py-2 me-2 mx-1 mb-2 font-medium" @click="navigateTo('#meals')">Let's
                                 Eat</button>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
         <!-- About Section End -->
 
         <!-- Meals -->
-        <section class="py-10">
+        <section class="py-10" id="meals">
             <div class="meals container mx-auto space-y-8">
                 <div>
                     <p>Choose Category</p>
